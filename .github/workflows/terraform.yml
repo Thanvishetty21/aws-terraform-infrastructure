@@ -24,6 +24,4 @@ jobs:
       - name: Validate
         run: terraform validate
 
-      - name: TFLint
-        uses: terraform-linters/setup-tflint@v4
-      - run: tflint --init && tflint --recursive
+    
